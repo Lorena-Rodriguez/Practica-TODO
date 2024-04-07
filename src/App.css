@@ -57,3 +57,7 @@ li::marker {
   width: 60px;
   height: auto;
 }
+
+.delete-text {
+  color: #0000FF;
+}

@@ -69,7 +69,7 @@ function App() {
       {tasks.length > 1 && (
         <button onClick={clearTasks} className='delete-all'>
           <img className='clear' src='../src/components/img/clear.svg' alt="Vaciar lista" />
-          <p>Eliminar todo</p>
+          <p className='delete-text'>Eliminar todo</p>
         </button>
       )}
       </div>
