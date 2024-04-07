@@ -2,7 +2,7 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  text-align: left;
   justify-content: space-between;
 }
 
@@ -15,4 +15,13 @@
 
 .container{
   padding-top: 200px;
+  padding-left: 350px;
 }
+
+li::marker {
+  color: #0000FF; 
+  display: inline-block;
+ }
+
+
+ 

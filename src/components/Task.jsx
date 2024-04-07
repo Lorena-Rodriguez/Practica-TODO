@@ -27,20 +27,21 @@ const Task = ({ task, deleteTask, updateTask }) => {
            
             <button className='buy' onClick={() => setComplete(!complete)}>
                 {complete ? (
-                    "No comprado"
+                    <img className='nocheck' src='../src/components/img/nocomprado.svg' alt="No Comprado" />
                 ) : (
-                    <img className='check' src="/comprado.jpg" alt="Comprado" />
+                    <img className='check' src='../src/components/img/comprado.svg' alt="Comprado" />
+                    
                 )}
             </button>
             <button className='delete' onClick={() => deleteTask(task.id)} id='delete'>
-                <img className='refuse' src="/refuse.jpg" alt="Eliminar" />
+                <img className='refuse' src='../src/components/img/delete.svg' alt="Eliminar" />
             </button>
             <button className='edit' onClick={() => setIsEditing(!isEditing)}>
-                <img className='pencil' src="/edit.jpg" alt="Editar" />
+                <img className='pencil' src='../src/components/img/edit.svg' alt="Editar" />
             </button>
             {isEditing && (
                 <button className='updateclick' onClick={handleUpdateClick}>
-                    <img className='update' src="/update.jpg" alt="Actualizar" />
+                    <img className='update' src='../src/components/img/upload.svg' alt="Actualizar" />
                 </button> 
             )}
             

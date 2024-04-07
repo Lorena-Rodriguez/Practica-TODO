@@ -64,15 +64,18 @@ function App() {
       {tasks.length > 1 && (
         <button onClick={clearTasks}>Vaciar lista</button>
       )}
+      <ul>
       {tasks.map(task => (
+      <li key={task.id}>
         <Task
-          key={task.id}
           id={task.id}
           task={task}
           deleteTask={deleteTask}
           updateTask={updateTask}
         />
+        </li>
       ))}
+      </ul>
       </div>
       </div>
     </>
