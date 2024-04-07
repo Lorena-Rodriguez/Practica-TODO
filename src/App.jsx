@@ -53,7 +53,9 @@ function App() {
   };
   return (
     <>
-      <h2 className='titleList'>SHOPPING LIST</h2>
+    <div className='bg'>
+      <div className='container'>
+      <h1 className='titleList'>TO DO LIST</h1>
       <Form
         handleChange={handleChange}
         task={task}
@@ -71,6 +73,8 @@ function App() {
           updateTask={updateTask}
         />
       ))}
+      </div>
+      </div>
     </>
   );
 }

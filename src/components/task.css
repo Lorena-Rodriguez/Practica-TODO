@@ -1,0 +1,20 @@
+* {
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.complete {
+    text-decoration: line-through;
+    color: black;
+}
+
+.noComplete{
+    color: black;
+    flex-direction: row;
+    display: inline-block;
+}
+
+
+
+  
