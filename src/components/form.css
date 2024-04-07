@@ -1,0 +1,19 @@
+.add {
+    width: 18px;
+}
+
+.addbutton {
+    border: none;
+    padding-top: 3px;
+}
+
+.field {
+    border: none;
+    border-bottom: 1px solid #757575;
+    background-color: transparent;
+    width: 200px;
+}
+
+input:focus {
+    outline: none;
+}

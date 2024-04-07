@@ -55,15 +55,24 @@ function App() {
     <>
     <div className='bg'>
       <div className='container'>
+      <div className='doodle'>
+      <img className='lines' src='../src/components/img/lines.png' /> 
       <h1 className='titleList'>TO DO LIST</h1>
+      <img className='smile' src='../src/components/img/smile.png' />
+      </div>
       <Form
         handleChange={handleChange}
         task={task}
         addTask={addTask}
       />
+      <div className='deletebutton'>
       {tasks.length > 1 && (
-        <button onClick={clearTasks}>Vaciar lista</button>
+        <button onClick={clearTasks} className='delete-all'>
+          <img className='clear' src='../src/components/img/clear.svg' alt="Vaciar lista" />
+          <p>Eliminar todo</p>
+        </button>
       )}
+      </div>
       <ul>
       {tasks.map(task => (
       <li key={task.id}>

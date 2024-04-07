@@ -2,8 +2,8 @@
     font-family: "Nanum Pen Script", cursive;
     font-weight: 400;
     font-style: normal;
-    
-  }
+
+}
 
 .complete {
     text-decoration: line-through;
@@ -12,33 +12,34 @@
     display: inline-block;
 }
 
-.noComplete{
+.noComplete {
     color: #0000FF;
     flex-direction: row;
     display: inline-block;
 }
 
-.buy{
+.buy {
     border: none;
 }
 
 .nocheck {
     width: 20px;
-    
+
 }
 
 .check {
     width: 20px;
-    
+
 }
 
-.refuse{
+.refuse {
     width: 18px;
 }
 
-.delete{
+.delete {
     border: none;
 }
+
 .edit {
     border: none;
 }
@@ -54,4 +55,3 @@
 .update {
     width: 20px;
 }
-  

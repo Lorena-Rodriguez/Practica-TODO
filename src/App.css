@@ -4,24 +4,56 @@
   padding: 2rem;
   text-align: left;
   justify-content: space-between;
+  font-size: 12px;
+}
+
+.titleList {
+  font-size: 35px;
+  padding-left: 200px;
 }
 
 .bg {
   background-image: url(../src/components/img/background.jpg);
   background-repeat: no-repeat;
-  height: 900px; 
+  height: 900px;
   background-size: 100%;
 }
 
-.container{
+.container {
   padding-top: 200px;
   padding-left: 350px;
 }
 
 li::marker {
-  color: #0000FF; 
+  color: #0000FF;
   display: inline-block;
- }
+}
 
+.clear {
+  width: 16px;
+  padding-top: 50px;
+}
 
- 
+.deletebutton {
+  display: flex;
+  flex-direction: row;
+  padding-left: 280px;
+}
+
+.delete-all {
+  border: none;
+}
+
+.smile {
+  width: 100px;
+  padding-left: 170px;
+}
+
+.doodle {
+  display: flex;
+}
+
+.lines {
+  width: 60px;
+  height: auto;
+}
